@@ -1,0 +1,100 @@
+.body{
+    background-color: rgb(242, 242, 242) !important;
+    line-height: 1.42857143;
+}
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+body {
+    color: #797979;
+    font-family: 'Ruda', sans-serif;
+    font-size: 13px;
+}
+::selection {
+    background: #68dff0;
+    color: #fff;
+}
+.form-login h2.form-login-heading {
+    margin: 0;
+    padding: 25px 20px;
+    text-align: center;
+    background: #B23694;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+h2{
+    font-family: inherit;
+    line-height: 1.1;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+.login-wrap {
+    padding: 20px 20px 40px 20px;
+}
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-color: rgb(232, 240, 254) !important;
+    background-image: none !important;
+    color: -internal-light-dark(black, white) !important;
+}
+input{
+    margin: 0;
+    font: inherit;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.form-login {
+    max-width: 330px;
+    margin: 100px auto 0;
+    background: #fff;
+    
+}
+input[type="submit"].btn-block {
+    width: 100%;
+}
+.btn-theme {
+    color: #fff;
+    background-color: #B23694;
+    border-color: rgb(158, 63, 0);
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+img{
+    width: 100%;
+}

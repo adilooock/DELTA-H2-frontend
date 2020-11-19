@@ -1,0 +1,154 @@
+/* Start Service */
+#service {
+    padding: 5rem 0;
+    display: block;
+    padding: 4rem 0;
+    background-color: #fafafa !important;
+}
+#service .fa-gem:before {
+    content: "\f3a5";
+}
+
+#service h4{
+    font-size: 1.5rem;
+}
+#service .text-muted {
+    color: #848484 !important;
+}
+
+#service .mb-0 {
+    margin-bottom: 0 !important;
+}
+#service p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#service .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2px 16px;
+    
+}
+#service .text-center {
+    text-align: center !important;
+}
+#service .mt-0 {
+    margin-top: 0 !important;
+}
+#service h2 {
+    line-height: 1.2;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: .5rem;
+    padding:0;
+    border:0;
+    outline:0;
+    background:0 0;
+    display:block;
+    text-shadow: 0.6px 0.6px 0.6px rgba(0,0,0,.92);
+    text-align:center;
+    list-style:none !important;
+    font-weight: 500 !important;
+    font-size: 50px !important; 
+
+    /* font-size: 3rem;
+    margin-bottom: .5rem;
+    font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 500;
+    line-height: 1.2;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+}
+#service .mt-5 {
+    margin-top: 2rem !important;
+}
+@media (min-width: 1200px){
+    #service .container {
+    max-width: 1140px;
+}
+}
+.my-4 {
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+hr.divider {
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: #B23692;
+}
+hr{
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+
+}
+.text-primary {
+    color: #B23692 !important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa-4x {
+    font-size: 4em;
+}
+#service .mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #B23692 !important;
+    
+}
+
+/* End Service */
+
+img{
+    width:4rem;
+    height:4rem
+}
+i{
+    font-size: 5rem;
+    color:#B23694 !important;
+}
+
+/* media query */
+/* @media (min-width: 768px) { 
+
+    #service{
+        padding:0 !important;
+    }
+  
+      } */
+
+      /* small */
+/* @media (min-width: 576px) { 
+    #service{
+    padding: 0 !important;
+    }
+    #service .mt-0 {
+        margin-top: 23px !important;
+    }
+  
+    }
+     */

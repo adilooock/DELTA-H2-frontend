@@ -1,0 +1,12 @@
+div {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    font-size: 16px;
+}
+

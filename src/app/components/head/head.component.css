@@ -1,0 +1,77 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+ul{
+    padding-left:0px !important;
+}
+.social-icons {
+	list-style: none;
+	width: 50px;
+    position: fixed;
+    top:30%;
+    z-index: 1000;    
+}
+.social-icons li {
+	float:none;
+    display: block;
+}
+.social-icons li a {
+    display:inline-block;
+    width:40px;
+    height:40px;
+    float:left;
+    overflow:hidden
+}
+.social-icons li a i {
+    padding:13px;
+}
+.facebook {
+    color:#3d5b99
+}
+.facebook:hover {
+    color:#fff;
+  	background-color: #3d5b99
+}
+.twitter {
+    color:#00aced
+}
+.twitter:hover {
+    color:#fff;
+  	background-color: #00aced
+}
+.instagram {
+    color:#AF02AF
+}
+.instagram :hover {
+    color:#fff;
+	background-color: #AF02AF;
+}
+
+.facebook,
+.twitter,
+.instagram
+{
+    -o-transition:.5s ease;
+  	-ms-transition:.5s ease;
+  	-moz-transition:.5s ease;
+  	-webkit-transition:.5s ease;
+  	transition: .5s ease
+}
+.facebook:hover,
+.twitter:hover,
+.instagram:hover
+{
+    width:50px;
+    border-radius: 0px 2px 2px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/* START ICON */
